@@ -640,6 +640,7 @@ svg{
     height: 60px;
     fill: white;
     opacity: 1;
+    pointer-events: none;
 }
 #Scribble-1{
     top: 60px;
