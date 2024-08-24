@@ -14,7 +14,7 @@ export default class extends AbstractView {
                 <div class="illustration2">
                 <img src="https:/\/illustrations.popsy.co/amber/page-under-construction.svg" alt="">
                 </div>
-                <h1 style="">Comming Soon!</h1>
+                <h1 style="">Coming Soon!</h1>
             </div>
             <div class="copy">
                 <p>&copy; 2024 businessdev. All rights reserved.</p>
