@@ -357,6 +357,7 @@ form button svg{
     background-color: white; 
     -webkit-mask-size: contain;
     mask-size: contain;
+    pointer-events: none;
 }
 .i1{
     -webkit-mask: url('svg/monitor.svg') no-repeat center;
