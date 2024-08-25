@@ -86,13 +86,17 @@ section.visible {
 }
 .banner-container h1{
     font-family: Lemon_r;
-    font-size: 34pt; /* Fallback to clamp */
+    font-size: 34pt;
+    mix-blend-mode: difference;
+    color: white;
 }
 .banner-container p{
     font-family: Louis;
     /* font-size: clamp(0.5rem, 4dvw, 2rem); */ /* Fallback to clamp */
     font-size: 13px;
     max-width: 400px;
+    mix-blend-mode: difference;
+    color: white;
 }
 .banner-container .button_link{
     margin-top: 8pt;
