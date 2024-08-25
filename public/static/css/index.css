@@ -646,8 +646,7 @@ svg{
     -webkit-mix-blend-mode: difference;
 }
 svg path{
-	fill: white;
-	-webkit-fill: white;
+	fill: white !important;
 }
 #Scribble-1{
     top: 60px;
