@@ -125,19 +125,21 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+
 .logo{
     transition: 0.6s ease-in-out;
     transform: translate(0px, 0px);
     mix-blend-mode: difference;
     position: relative;
+    pointer-events: none;
 }
-.logo p{
-    font-family: TypoGraphica;
-    font-size: 0.8cm;
-    margin: 20px;
-    color: white;
-    z-index: 2;
+.logo .styled-svg{
+	width: 200px;
+	height: auto;
+	margin-left: 15px;
 }
+
 .logo.moved {
     transform: translate(20px, 20px); /* Move by 100px horizontally and 50px vertically */
     z-index: 200;
@@ -187,10 +189,10 @@ nav{
     margin:0;
     background-image: radial-gradient(#000 10px, transparent 10px);
     background-size: 15px 15px;
-    box-shadow: inset -70px -70px 100px #000;
+    box-shadow: inset -80px -80px 100px #000;
 }
 .dots2{
-    box-shadow: inset 70px 70px 100px #000;
+    box-shadow: inset 80px 80px 100px #000;
     position: absolute;
     top: 0;
     left: 0;
@@ -354,7 +356,7 @@ form button svg{
 .list-item div{
     width: 20px;
     height: 20px;
-    background-color: white; 
+    background-color: white;
     -webkit-mask-size: contain;
     mask-size: contain;
     pointer-events: none;
@@ -388,11 +390,11 @@ background-color: #000;
 background-image: radial-gradient(#fff 10px, transparent 10px);
 
 background-size: 15px 15px;
-box-shadow: inset -70px -70px 170px #fff;
+box-shadow: inset -90px -90px 80px #fff;
 }
 
 body {
-box-shadow: inset 70px 70px 170px #fff;
+box-shadow: inset 90px 90px 80px #fff;
 }
 
 /* socials */
@@ -523,6 +525,7 @@ box-shadow: inset 70px 70px 170px #fff;
 }
 .illu h1{
     font-size: 21pt;
+    max-width: unset;
 }
 .illustration2{
     pointer-events: none; /* This allows clicks to go through the div */
