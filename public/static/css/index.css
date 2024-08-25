@@ -162,7 +162,7 @@ nav{
 }
 #dropdown {
     position: absolute;
-    width: calc(100vw - 24px);
+    width: calc(100% - 24px);
     height: 95dvh;
     right: 12px;
     top: 20px;
