@@ -147,8 +147,8 @@ nav{
     margin: 20px;
 }
 #menu-circle{
-    height: clamp(1rem, 6.3dvw + 1rem, 4rem);
-    width: clamp(1rem, 6.3dvw + 1rem, 4rem);
+    height: clamp(1rem, 10.3dvw, 4rem);
+    width: clamp(1rem, 10.3dvw, 4rem);
     border-radius: 50%;
     background-color: black;
     display: flex;
