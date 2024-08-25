@@ -45,8 +45,8 @@ body, html {
     scroll-snap-type: y mandatory;
     height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth;
-    z-index: 3;
 }
 
 section {
@@ -87,16 +87,14 @@ section.visible {
 .banner-container h1{
     font-family: Lemon_r;
     font-size: 34pt;
-    mix-blend-mode: difference;
-    color: white;
+    color: black;
 }
 .banner-container p{
     font-family: Louis;
     /* font-size: clamp(0.5rem, 4dvw, 2rem); */ /* Fallback to clamp */
     font-size: 13px;
     max-width: 400px;
-    mix-blend-mode: difference;
-    color: white;
+    color: black;
 }
 .banner-container .button_link{
     margin-top: 8pt;
@@ -137,8 +135,8 @@ nav{
     font-family: TypoGraphica;
     font-size: 0.8cm;
     margin: 20px;
-    z-index: 2;
     color: white;
+    z-index: 2;
 }
 .logo.moved {
     transform: translate(20px, 20px); /* Move by 100px horizontally and 50px vertically */
@@ -642,36 +640,34 @@ svg{
     position: absolute;
     width: 60px;
     height: 60px;
-    fill: white;
     opacity: 1;
     pointer-events: none;
+    mix-blend-mode: difference;
+}
+svg path{
+	fill: white;
 }
 #Scribble-1{
     top: 60px;
     left: -5px;
-    z-index: 1;
 }
 #Scribble-2{
     top: 290px;
     right: 45px;
-    z-index: 1;
 }
 #Scribble-3{
     bottom: 60px;
     left: 30px;
-    z-index: 1;
 }
 #Scribble-4{
     top: 500px;
     right: 0px;
-    z-index: 1;
 }
 #Scribble-5{
     bottom: 390px;
     left: 140px;
     width: 20px;
     height: 20px;
-    z-index: 1;
 }
 
 #Scribble-6{
@@ -679,16 +675,14 @@ svg{
     left: 155px;
     width: 100px;
     height: 100px;
-    z-index: 1;
     opacity: 0;
+    display: none;
 }
 #Scribble-7{
     top: 100px;
     right: 205px;
-    z-index: 1;
 }
 #Scribble-8{
     top: 250px;
     left: 200px;
-    z-index: 1;
 }
