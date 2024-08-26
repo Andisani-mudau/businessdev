@@ -30,7 +30,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Louis;
     user-select: none;
 }
 *::-webkit-scrollbar{
@@ -160,6 +160,7 @@ nav{
     transform: rotate(0deg); /* Equal to rotateZ(45deg) */
     cursor: pointer;
     border: none;
+    cursor: pointer;
 }
 #menu-circle:hover{
     background: #252525;
@@ -291,6 +292,7 @@ form button{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 form button svg{
@@ -349,7 +351,7 @@ form button svg{
 .list-item p{
     color: white;
     font-family: Louis;
-    
+    pointer-events: none;
 }
 
 /* CSS */
