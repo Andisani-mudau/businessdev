@@ -59,6 +59,7 @@ section {
     padding: 0 15px 0 15px;
     opacity: 0;
     transition: opacity 1s ease-in-out 0.3s;
+    flex-wrap: wrap;
 }
 
 section.visible {
@@ -92,17 +93,17 @@ section.visible {
     font-family: Louis;
     /* font-size: clamp(0.5rem, 4dvw, 2rem); */ /* Fallback to clamp */
     font-size: clamp(0.5rem, 1vw + 0.5rem, 2rem);
-    max-width: 400px;
+    max-width: 850px;
     color: black;
+    margin-bottom: 25px;
 }
 .banner-container .button_link{
-    margin-top: 8pt;
     margin-bottom: 150px;
 }
 
 .banner-container .button_link a{
     font-family: Louis;
-    font-size: clamp(0.5rem, 0.5vw + 0.2rem, 1.5rem); /* Fallback to clamp */
+    font-size: clamp(0.5rem, 0.8vw + 0.5rem, 1.5rem); /* Fallback to clamp */
     width: 200px;
     height: 30px;
     background: black;
@@ -511,8 +512,7 @@ box-shadow: inset 90px 90px 80px #fff;
     transition: opacity 0s ease-in-out;
 }
 .illustration img{
-    width: 70vw; /* Fallback to clamp */
-    max-width: 600px;
+    width: clamp(20rem, 70vw + 5rem, 40rem); /* Fallback to clamp */
 }
 
 .illu{
@@ -605,10 +605,6 @@ box-shadow: inset 90px 90px 80px #fff;
 }
 @media (min-width: 700px){
   /* For desktop: */
-    .illustration img{
-    width: 70vw; /* Fallback to clamp */
-    max-width: 400px;
-}
     .banner-container .button_link {
         margin-bottom: 0px;
     }
