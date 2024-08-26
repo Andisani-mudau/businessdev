@@ -527,7 +527,7 @@ box-shadow: inset 90px 90px 80px #fff;
     
 }
 .illu h1{
-    font-size: 21pt;sss
+    font-size: 21pt;
     font-family: Lemon_r;
     font-size: 34pt;
     color: black;
@@ -543,7 +543,7 @@ box-shadow: inset 90px 90px 80px #fff;
     max-width: 400px;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   /* For desktop: */
      section {
     justify-content: start;
