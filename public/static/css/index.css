@@ -521,11 +521,17 @@ box-shadow: inset 90px 90px 80px #fff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: Louis;
+    font-size: 13px;
+    color: black;
     
 }
 .illu h1{
     font-size: 21pt;
     max-width: 900px
+    font-family: Lemon_r;
+    font-size: 34pt;
+    color: black;
 }
 .illustration2{
     pointer-events: none; /* This allows clicks to go through the div */
