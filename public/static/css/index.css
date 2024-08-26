@@ -77,7 +77,7 @@ section.visible {
 }
 .prices .banner-container h1{
     font-family: Lemon_r;
-    font-size: clamp(1rem, 3.30rem + 4.34, 7rem);
+    font-size: clamp(2rem, 5vw + 1rem, 6rem);
     max-width: 600px;
 }
 .social-media .banner-container h1{
@@ -85,13 +85,13 @@ section.visible {
 }
 .banner-container h1{
     font-family: Lemon_r;
-    font-size: clamp(1rem, 3.30rem + 4.34, 7rem);
+    font-size: clamp(2rem, 5vw + 1rem, 6rem);
     color: black;
 }
 .banner-container p{
     font-family: Louis;
     /* font-size: clamp(0.5rem, 4dvw, 2rem); */ /* Fallback to clamp */
-    font-size: 13px;
+    font-size: clamp(0.5rem, 1vw + 0.5rem, 2rem);
     max-width: 400px;
     color: black;
 }
@@ -102,7 +102,7 @@ section.visible {
 
 .banner-container .button_link a{
     font-family: Louis;
-    font-size: 8pt; /* Fallback to clamp */
+    font-size: clamp(0.5rem, 0.5vw + 0.2rem, 1.5rem); /* Fallback to clamp */
     width: 200px;
     height: 30px;
     background: black;
@@ -590,7 +590,6 @@ box-shadow: inset 90px 90px 80px #fff;
         font-size: 8pt;
     }
     .banner-container .button_link a{
-        font-size: 5pt;
         padding: 8pt 13pt;
         border-radius: 5px;
     }
@@ -606,14 +605,6 @@ box-shadow: inset 90px 90px 80px #fff;
 }
 @media (min-width: 700px){
   /* For desktop: */
-    .banner-container p{
-        font-size: 21pt;
-        max-width: 600px;
-    }
-    
-    .banner-container .button_link a{
-        font-size: 13pt;
-    }
     .illustration img{
     width: 70vw; /* Fallback to clamp */
     max-width: 400px;
@@ -624,13 +615,6 @@ box-shadow: inset 90px 90px 80px #fff;
 }
 @media (min-width: 1025px){
   /* For desktop: */
-    .banner-container p{
-        font-size: 21pt;
-        max-width: 700px;
-    }
-    .banner-container .button_link a{
-        font-size: 13pt;
-    }
 }
 /* Art */
 svg{
