@@ -188,7 +188,7 @@ nav{
     padding: 0;
     margin:0;
     background-image: radial-gradient(#000 10px, transparent 10px);
-    background-size: 15.6px 15.6px;
+    background-size: 3.7vw 3.7vw;
     box-shadow: inset -80px -80px 100px #000;
 }
 .dots2{
@@ -388,8 +388,7 @@ html {
 background-color: #000;
 
 background-image: radial-gradient(#fff 10px, transparent 10px);
-
-background-size: 15.6px 15.6px;
+background-size: 3.7vw 3.7vw;
 box-shadow: inset -90px -90px 80px #fff;
 }
 
@@ -519,7 +518,6 @@ box-shadow: inset 90px 90px 80px #fff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: Louis;
     font-size: 13px;
     color: black;
     
@@ -529,11 +527,13 @@ box-shadow: inset 90px 90px 80px #fff;
     font-family: Lemon_r;
     color: black;
 }
+.illu p{
+	font-family: Louis;
+}
 .illustration2{
     pointer-events: none; /* This allows clicks to go through the div */
     transition: opacity 0s ease-in-out;
     z-index: 4;
-    
 }
 .illustration2 img{
     width: 80vw; /* Fallback to clamp */
@@ -604,12 +604,6 @@ box-shadow: inset 90px 90px 80px #fff;
     .banner-container .button_link {
         margin-bottom: 0px;
     }
-    html{
-    	background-size: 15.8px 15.8px;
-    }
-    .dots{
-    	 background-size: 15.8px 15.8px;
-   }
 }
 @media (min-width: 1025px){
   /* For desktop: */
