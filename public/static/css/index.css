@@ -525,7 +525,7 @@ box-shadow: inset 90px 90px 80px #fff;
 }
 .illu h1{
     font-size: 21pt;
-    max-width: 100vw;
+    max-width: 900px
 }
 .illustration2{
     pointer-events: none; /* This allows clicks to go through the div */
