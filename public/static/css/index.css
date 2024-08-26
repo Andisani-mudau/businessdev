@@ -387,10 +387,9 @@ form button svg{
 
 /* dot */
 html {
-background-color: #000;
-
-background-image: radial-gradient(#fff 10px, transparent 10px);
-background-size: 3.7vw 3.7vw;
+background-color: #fff;
+background-image: radial-gradient(#000 1px, transparent 1px);
+background-size: 20px 20px;
 box-shadow: inset -90px -90px 80px #fff;
 }
 
