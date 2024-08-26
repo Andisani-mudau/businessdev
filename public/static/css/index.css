@@ -188,7 +188,7 @@ nav{
     padding: 0;
     margin:0;
     background-image: radial-gradient(#000 10px, transparent 10px);
-    background-size: 15px 15px;
+    background-size: 15.6px 15.6px;
     box-shadow: inset -80px -80px 100px #000;
 }
 .dots2{
@@ -389,7 +389,7 @@ background-color: #000;
 
 background-image: radial-gradient(#fff 10px, transparent 10px);
 
-background-size: 15px 15px;
+background-size: 15.6px 15.6px;
 box-shadow: inset -90px -90px 80px #fff;
 }
 
@@ -504,7 +504,6 @@ box-shadow: inset 90px 90px 80px #fff;
 }
 /* .... */
 .illustration{
-    z-index: 5;
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -512,7 +511,7 @@ box-shadow: inset 90px 90px 80px #fff;
     transition: opacity 0s ease-in-out;
 }
 .illustration img{
-    width: clamp(20rem, 70vw + 5rem, 40rem); /* Fallback to clamp */
+    width: clamp(20rem, 70vw + 4rem, 40rem); /* Fallback to clamp */
 }
 
 .illu{
@@ -549,9 +548,6 @@ box-shadow: inset 90px 90px 80px #fff;
     .coming{
     justify-content: center;
     align-items: center;
-    }
-    .dots{
-        background-size: 18px 18px;
     }
 }
 
@@ -608,6 +604,12 @@ box-shadow: inset 90px 90px 80px #fff;
     .banner-container .button_link {
         margin-bottom: 0px;
     }
+    html{
+    	background-size: 15.8px 15.8px;
+    }
+    .dots{
+    	 background-size: 15.8px 15.8px;
+   }
 }
 @media (min-width: 1025px){
   /* For desktop: */
