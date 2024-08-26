@@ -77,7 +77,7 @@ section.visible {
 }
 .prices .banner-container h1{
     font-family: Lemon_r;
-    font-size: clamp(1rem, 2.30rem + 2.34, 5rem);
+    font-size: clamp(1rem, 2.30rem + 3.34, 5rem);
     max-width: 600px;
 }
 .social-media .banner-container h1{
@@ -85,7 +85,7 @@ section.visible {
 }
 .banner-container h1{
     font-family: Lemon_r;
-    font-size: clamp(1rem, 2.30rem + 2.34, 5rem);
+    font-size: clamp(1rem, 2.30rem + 3.34, 5rem);
     color: black;
 }
 .banner-container p{
