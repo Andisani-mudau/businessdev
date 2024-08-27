@@ -75,6 +75,7 @@ section.visible {
 /* ...... */
 .banner-container{
     position: relative;
+    z-index: 1;
 }
 .prices .banner-container h1{
     font-family: Lemon_r;
@@ -88,12 +89,13 @@ section.visible {
     font-family: Lemon_r;
     font-size: clamp(2rem, 5vw + 1rem, 6rem);
     color: black;
+    max-width: 700px;
 }
 .banner-container p{
     font-family: Louis;
     /* font-size: clamp(0.5rem, 4dvw, 2rem); */ /* Fallback to clamp */
     font-size: clamp(0.5rem, 1vw + 0.5rem, 2rem);
-    max-width: 850px;
+    max-width: 600px;
     color: black;
     margin-bottom: 25px;
 }
@@ -618,6 +620,7 @@ svg{
     pointer-events: none;
     mix-blend-mode: difference;
     -webkit-mix-blend-mode: difference;
+    z-index: 1;
 }
 svg path{
 	fill: white !important;
